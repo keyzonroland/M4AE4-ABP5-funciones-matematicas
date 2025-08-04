@@ -1,6 +1,6 @@
-# 📚 Funciones Matemáticas - Proyecto Completo
+# Funciones Matemáticas - Proyecto Completo
 
-## 🎯 Descripción
+## Descripción
 Este proyecto implementa 6 funciones matemáticas interactivas con interfaces web modernas:
 
 1. **Sumatoria** - Calcula la suma de 1 hasta n
@@ -10,7 +10,7 @@ Este proyecto implementa 6 funciones matemáticas interactivas con interfaces we
 5. **Tabla de Multiplicar** - Genera tablas hasta 12
 6. **Ordenamiento** - Ordena arreglos con diferentes algoritmos
 
-## 🚀 Cómo usar el proyecto
+## Cómo usar el proyecto
 
 ### Opción 1: Abrir archivo principal
 1. Navega a la carpeta del proyecto
@@ -24,10 +24,10 @@ Este proyecto implementa 6 funciones matemáticas interactivas con interfaces we
 4. Haz clic derecho en `index.html`
 5. Selecciona "Open with Live Server"
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 ```
 M4AE4-ABP5/
-├── index.html              ← ¡ARCHIVO PRINCIPAL! Abre este
+├── index.html              ← ARCHIVO PRINCIPAL! Abre este
 ├── README.md               ← Este archivo
 └── assets/
     ├── sumatoria.html
@@ -47,7 +47,7 @@ M4AE4-ABP5/
         └── ordenamiento.js
 ```
 
-## ✅ Funciones implementadas
+## Funciones implementadas
 
 ### 1. Sumatoria (1 hasta n)
 - **Requisito**: n < 100
@@ -77,16 +77,16 @@ M4AE4-ABP5/
 - **Funcionalidad**: Ordena arreglos ascendentemente
 - **Extra**: 4 algoritmos diferentes con estadísticas
 
-## 🎨 Características
-- ✅ Diseño responsive (móvil y escritorio)
-- ✅ Animaciones y transiciones suaves
-- ✅ Validación de entrada de datos
-- ✅ Mensajes de error informativos
-- ✅ Navegación intuitiva
-- ✅ Código JavaScript moderno
-- ✅ Estilos CSS avanzados
+## Características
+- Diseño responsive (móvil y escritorio)
+- Animaciones y transiciones suaves
+- Validación de entrada de datos
+- Mensajes de error informativos
+- Navegación intuitiva
+- Código JavaScript moderno
+- Estilos CSS avanzados
 
-## 🔧 Solución de problemas
+## Solución de problemas
 
 Si solo ves la carpeta "assets":
 1. Asegúrate de abrir `index.html` (en la carpeta raíz)
@@ -98,7 +98,7 @@ Si los enlaces no funcionan:
 2. Verifica que todos los archivos estén en su lugar
 3. Revisa la consola del navegador (F12)
 
-## 📞 Soporte
+## Soporte
 Si tienes problemas:
 1. Revisa la consola del navegador (F12)
 2. Usa VS Code Live Server para mejor compatibilidad
@@ -106,5 +106,5 @@ Si tienes problemas:
 
 ---
 **Fecha de creación**: Agosto 2025  
-**Tecnologías**: HTML5, CSS3, JavaScript   
+**Tecnologías**: HTML5, CSS3, JavaScript ES6+  
 **Compatibilidad**: Todos los navegadores modernos
