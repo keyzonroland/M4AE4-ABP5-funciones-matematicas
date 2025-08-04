@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Multiplicar - Funciones Matemáticas</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-button">
+            ← Volver al menú
+        </a>
+
+        <div class="page-container">
+            <div class="page-header">
+                <h1>Tabla de Multiplicar</h1>
+                <p>Genera la tabla de multiplicar de cualquier número hasta 12</p>
+            </div>
+
+            <div class="form-section">
+                <div class="form-group">
+                    <label for="numero">Ingresa un número:</label>
+                    <input type="number" id="numero" min="1" placeholder="Ejemplo: 7">
+                </div>
+                <div class="form-group">
+                    <label for="limite">Multiplicar hasta (máximo 20):</label>
+                    <select id="limite">
+                        <option value="10">Hasta 10</option>
+                        <option value="12" selected>Hasta 12</option>
+                        <option value="15">Hasta 15</option>
+                        <option value="20">Hasta 20</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="mostrarAnimacion">
+                        <input type="checkbox" id="mostrarAnimacion" checked> Mostrar con animación
+                    </label>
+                </div>
+                <button class="btn" onclick="generarTabla()">Generar Tabla</button>
+                <button class="btn btn-secondary" onclick="limpiar()">Limpiar</button>
+            </div>
+
+            <div id="resultado" class="result-section">
+                <h3>Tabla de Multiplicar:</h3>
+                <div class="result-content">
+                    <div id="contenido-resultado"></div>
+                    <div id="tabla-visual"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/tabla-multiplicar.js"></script>
+</body>
+</html>

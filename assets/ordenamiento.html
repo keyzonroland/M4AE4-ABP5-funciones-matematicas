@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordenamiento de Arreglos - Funciones Matemáticas</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-button">
+            ← Volver al menú
+        </a>
+
+        <div class="page-container">
+            <div class="page-header">
+                <h1>Ordenamiento de Arreglos</h1>
+                <p>Ordena un arreglo de números de forma ascendente</p>
+            </div>
+
+            <div class="form-section">
+                <div class="form-group">
+                    <label for="numeros">Ingresa los números separados por comas:</label>
+                    <textarea 
+                        id="numeros" 
+                        rows="3" 
+                        placeholder="Ejemplo: 64, 34, 25, 12, 22, 11, 90, 5, 77, 30"
+                    ></textarea>
+                    <small style="color: #666;">También puedes ingresar números separados por espacios o punto y coma</small>
+                </div>
+                
+                <div class="form-group">
+                    <label for="algoritmo">Algoritmo de ordenamiento:</label>
+                    <select id="algoritmo">
+                        <option value="burbuja">Ordenamiento Burbuja</option>
+                        <option value="seleccion">Ordenamiento por Selección</option>
+                        <option value="insercion">Ordenamiento por Inserción</option>
+                        <option value="nativo" selected>Ordenamiento Nativo (JavaScript)</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <button class="btn" onclick="generarAleatorio()">Generar Números Aleatorios</button>
+                    <button class="btn" onclick="ordenarArreglo()">Ordenar Arreglo</button>
+                    <button class="btn btn-secondary" onclick="limpiar()">Limpiar</button>
+                </div>
+            </div>
+
+            <div id="resultado" class="result-section">
+                <h3>Resultado del Ordenamiento:</h3>
+                <div class="result-content">
+                    <div id="contenido-resultado"></div>
+                    <div id="proceso-visual"></div>
+                    <div id="comparacion"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/ordenamiento.js"></script>
+</body>
+</html>
